@@ -17,6 +17,13 @@ source .venv/bin/activate
 pip install -r requirements-dev.txt
 """
 
+Para instalar no windows:
+"""
+python3 -m venv .venv
+.venv\scripts\activate
+pip install -r requirements-dev.txt
+"""
+
 Para conferir qualidade de código:
 
 '''console
