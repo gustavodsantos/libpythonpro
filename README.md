@@ -30,6 +30,7 @@ Para conferir qualidade de código:
 flake8
 '''
 
+
 Tópicos a serem aboradados:
  1. Git
  2. Virtualenv
