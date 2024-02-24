@@ -6,6 +6,7 @@ Nesse curso é ensinado como contribuir com projetos de código aberto.
 link para o curso Pytools (https://plataforma.dev.pro.br/)
 
 [![Build Status](https://app.travis-ci.com/gustavodsantos/libpythonpro.svg?branch=main)](https://app.travis-ci.com/gustavodsantos/libpythonpro)
+[![codecov](https://codecov.io/gh/gustavodsantos/libpythonpro/graph/badge.svg?token=S4F8MLZ565)](https://codecov.io/gh/gustavodsantos/libpythonpro)
 
 Suportada versão python 3.11
 
