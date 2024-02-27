@@ -3,7 +3,7 @@ import pytest
 from libpythonpro.spam.db import Conexao
 
 
-@pytest.fixture
+@pytest.fixture(scope='session')
 def conexao():
     # Setup
     conexao_obj = Conexao()
@@ -12,7 +12,7 @@ def conexao():
     conexao_obj.fechar()
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture
 def sessao(conexao):
     sessao_obj = conexao.gerar_sessao()
     yield sessao_obj
